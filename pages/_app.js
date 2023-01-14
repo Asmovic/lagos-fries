@@ -14,7 +14,7 @@ import './styles/globals.css'
 
 const AppComponent = ({ Component, pageProps }) => {
   return <>
-    <Script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.6/swiper-bundle.min.js"  strategy="beforeInteractive" />
+    <Script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.6/swiper-bundle.min.js" />
     <Component {...pageProps} />
     <Script src="./js/script.js" />
 </>
